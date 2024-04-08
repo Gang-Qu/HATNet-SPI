@@ -1,0 +1,6 @@
+2024-04-08 20:16:44,502 - test.py [line: 87] - Loading pretrained model...
+2024-04-08 20:17:10,215 - test.py [line: 65] - psnr_mean: 38.4781.
+2024-04-08 20:17:10,215 - test.py [line: 66] - ssim_mean: 0.9679.
+2024-04-08 20:17:10,218 - test.py [line: 95] - psnr: {'barbara': 40.5328, 'boat': 38.1667, 'cameraman': 38.8866, 'couple': 39.9891, 'fingerprint': 39.5592, 'flinstones': 35.4036, 'house': 43.7472, 'lena': 42.2796, 'mandrill': 30.3286, 'peppers256': 41.0057, 'streamandbridge': 33.3605}.
+2024-04-08 20:17:10,218 - test.py [line: 96] - ssim: {'barbara': 0.9799, 'boat': 0.9519, 'cameraman': 0.9748, 'couple': 0.9762, 'fingerprint': 0.9949, 'flinstones': 0.9542, 'house': 0.9809, 'lena': 0.9746, 'mandrill': 0.9266, 'peppers256': 0.9793, 'streamandbridge': 0.9531}.
+2024-04-08 20:17:10,219 - test.py [line: 97] - test finish!
