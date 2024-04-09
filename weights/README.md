@@ -1,1 +1,2 @@
-'Dual-scale Transformer for Large-scale Single-Pixel Imaing', accepted by CVPR 2024 
+Pretrained weights are availiable at
+https://pan.baidu.com/s/158DFfUBYTBRMbnCBjQICQw?pwd=093l 
