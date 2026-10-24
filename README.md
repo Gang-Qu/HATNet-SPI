@@ -14,8 +14,6 @@ HATNet is a deep unfolding network for large-scale single-pixel imaging. It comb
 
 ## Installation
 
-The following setup uses package versions from the working Linux `SPI` environment: Python 3.13.2, PyTorch 2.6.0, and the CUDA 12.6 PyTorch build. An NVIDIA GPU and a compatible driver are required for the CUDA workflow.
-
 ```bash
 git clone https://github.com/Gang-Qu/HATNet-SPI.git
 cd HATNet-SPI
@@ -54,7 +52,6 @@ The data loaders use the Y channel of OpenCV's YCrCb conversion. Training augmen
 
 Configure the image dimensions, measurement dimensions, and architecture in `opts.py`. The defaults use `size=[256, 256]`, `meas_size=[181, 181]`, and seven unfolding stages, corresponding to approximately 50% sampling.
 
-The effective sampling ratio is `meas_size[0] * meas_size[1] / (size[0] * size[1])`. Changing `--cr` alone does not change the measurement dimensions. Edit `opts.py` for list-valued settings such as `size`, `meas_size`, `enc_blocks`, and `dec_blocks`.
 
 ## Training
 
@@ -67,7 +64,6 @@ python train.py \
   --device cuda
 ```
 
-The training script selects GPU 0 internally. Logs are saved under `log/`, and reconstruction images are saved under `results/`. Training also reports PSNR and SSIM on the configured benchmark. Consult the paper for the experimental training schedule.
 
 ## Citation
 
